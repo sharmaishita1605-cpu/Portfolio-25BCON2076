@@ -13,8 +13,12 @@ D3 — At least two screenshots
 For a portfolio, use:
 
 Screenshot 1: Hero/About section
-Screenshot 2026-10-15 at 8 32 08 AM Screenshot 2026-10-15 at 8 29 24 AM
+<img width="1470" height="956" alt="Screenshot 2026-10-26 at 12 39 52 PM" src="https://github.com/user-attachments/assets/a6f4a84a-7dd6-4a02-a936-a8d53054465d" />
+
+
 Screenshot 2: Skills + Projects section The guide asks for screenshots of the actual working project.
+<img width="1470" height="956" alt="Screenshot 2026-10-26 at 12 39 59 PM" src="https://github.com/user-attachments/assets/4102e085-8fb7-4a4c-b2e0-8a2704945c8f" />
+
 Tech Stack
 HTML
 CSS
