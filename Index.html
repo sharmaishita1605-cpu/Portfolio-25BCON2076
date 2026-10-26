@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ishita Sharma  — Personal Profile</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="chatbot.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <p class="eyebrow">Personal profile</p>
+      <h1>Ishita Sharma </h1>
+      <p class="tagline">Btech 2nd year student</p>
+    </header>
+
+    <main>
+      <section class="about" aria-labelledby="about-heading">
+        <h2 id="about-heading">About</h2>
+        <p>
+          Hi, I'm a second-year Computer Science Engineering student at JECRC University, Jaipur, who enjoys turning ideas into interactive and user-friendly digital experiences. I love building frontend projects, exploring new technologies, and bringing creative concepts to life through code. Currently, I’m focused on strengthening my development skills, building hands-on projects, and exploring opportunities to grow as a developer.
+        </p>
+        <p>
+          I'm based in Jaipur, India, and I'm interested in frontend development
+          I'm always looking for opportunities to learn, collaborate, and gain hands-on experience through real-world projects and internships.
+        </p>
+      </section>
+
+      <section class="skills" aria-labelledby="skills-heading">
+        <h2 id="skills-heading">Skills</h2>
+        <ul>
+          <li>c++ Language</li>
+          <li>Python</li>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+        </ul>
+      </section>
+
+      <section class="projects" aria-labelledby="projects-heading">
+        <h2 id="projects-heading">Projects</h2>
+        <input
+  type="text"
+  id="project-search"
+  placeholder="Search projects..."
+  aria-label="Search projects"
+/>
+
+<p id="no-projects" hidden>
+  No projects found.
+</p>
+        <ul>
+          <li>
+            
+            <a href="https://example.com/placeholder-project-one"> 1. Python Fundamentals Toolkit</a>
+            <p>A collection of Python programs covering factorial calculation, Fibonacci sequences, and structure-to-dictionary conversion. Includes an updated README with project details and usage instructions
+              1. https://github.com/sharmaishita1605-cpu/python-basic-25BCON2076.git
+              2.https://github.com/sharmaishita1605-cpu/python-basics-25bcon2076-fibonacci.git
+              3.https://github.com/sharmaishita1605-cpu/python-basics-yourrollno-struct-to--dict.git.</p>
+          </li>
+          <li>
+            <a href="https://example.com/placeholder-project-two">2. AI-Assisted Python Code Improvement</a>
+            <p>An exercise in improving a messy Python script with the help of AI assistance. Focuses on making the code easier to understand and work with.</p>
+          </li>
+          <li>
+            <a href="https://example.com/placeholder-project-three">3. Python Debugging with Cursor AI</a>
+            <p>A debugging exercise using Cursor AI to identify and correct errors in a Python program, demonstrating how AI-powered coding tools can assist with troubleshooting.</p>
+          </li>
+          <li>
+            <a href="https://example.com/placeholder-project-three">4. Interactive Quiz Application</a>
+            <p>An interactive quiz application developed during Lecture 10. Designed to let users engage with quiz questions through a simple, user-friendly interface.
+              1. https://reading-list-app-vumx.vercel.app/
+            </p>
+          </li>
+          <li>
+            <a href="https://example.com/placeholder-project-three">5. BookTrack — Reading List Manager</a>
+            <p>A reading list application that helps users manage their books, track reading status, filter their list, and delete entries. Includes summary counts and an updated README with the deployed application link.
+              1. https://reading-list-app-vumx.vercel.app/
+            </p>
+          </li>
+        </ul>
+
+      </section>
+    </main>
+    <section id="aiChatSection" class="ai-chat">
+      <h2>Ask My AI Assistant</h2>
+    
+      <p>
+        Ask questions about this portfolio,
+        projects, and technologies.
+      </p>
+    
+      <div
+        id="chatMessages"
+        aria-live="polite"
+      ></div>
+    
+      <div class="chat-controls">
+        <input
+          type="text"
+          id="userInput"
+          placeholder="Ask a question..."
+        />
+    
+        <button id="sendButton" type="button">
+          Send
+        </button>
+      </div>
+    
+      <p id="chatStatus" role="status"></p>
+    
+      <p class="chat-note">
+        AI chat is available during the local
+        classroom demonstration only.
+      </p>
+    </section>
+
+    <footer class="site-footer">
+      <p>Contact: sharmaishita1605@gmail.com</p>
+      <section id="weather">
+        <h2>Weather</h2>
+    
+        <input
+            type="text"
+            id="cityInput"
+            placeholder="Enter a city"
+        >
+    
+        <button id="weatherButton">
+            Get Weather
+        </button>
+    
+        <div id="weatherResult">
+            Enter a city to see the weather.
+        </div>
+    </section>
+    </footer>
+    <button id="themeToggle">Switch to Dark Mode</button>
+  <script src="script.js"></script>
+  <script src="config.js"></script>
+  <script src="chatbot.js"></script>
+  </body>
+</html>
